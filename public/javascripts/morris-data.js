@@ -66,36 +66,43 @@ $(function () {
         element: 'morris-bar-chart',
         data: [{
             y: '2006',
-            a: 100,
-            b: 90
+            SachThieuNhi: 2687,
+            SachGiaoKhoa: 4260,
+            SachKhoaHoc: 2428
         }, {
             y: '2007',
-            a: 75,
-            b: 65
+            SachThieuNhi: 1687,
+            SachGiaoKhoa: 4260,
+            SachKhoaHoc: 2018
         }, {
             y: '2008',
-            a: 50,
-            b: 40
+            SachThieuNhi: 2687,
+            SachGiaoKhoa: 5460,
+            SachKhoaHoc: 6328
         }, {
             y: '2009',
-            a: 75,
-            b: 65
+            SachThieuNhi: 3687,
+            SachGiaoKhoa: 3460,
+            SachKhoaHoc: 6028
         }, {
             y: '2010',
-            a: 50,
-            b: 40
+            SachThieuNhi: 3687,
+            SachGiaoKhoa: 3460,
+            SachKhoaHoc: 6028
         }, {
             y: '2011',
-            a: 75,
-            b: 65
+            SachThieuNhi: 4687,
+            SachGiaoKhoa: 3460,
+            SachKhoaHoc: 3628
         }, {
             y: '2012',
-            a: 100,
-            b: 90
+            SachThieuNhi: 5687,
+            SachGiaoKhoa: 6460,
+            SachKhoaHoc: 3228
         }],
         xkey: 'y',
-        ykeys: ['a', 'b'],
-        labels: ['Series A', 'Series B'],
+        ykeys: ['SachThieuNhi', 'SachGiaoKhoa', 'SachKhoaHoc'],
+        labels: ['SachThieuNhi', 'SachGiaoKhoa', 'SachKhoaHoc'],
         hideHover: 'auto',
         resize: true
     });
@@ -103,14 +110,20 @@ $(function () {
     Morris.Donut({
         element: 'morris-donut-chart',
         data: [{
-            label: "Download Sales",
-            value: 12
+            label: "Chi Nhánh A",
+            value: 2320
         }, {
-            label: "In-Store Sales",
-            value: 30
+            label: "Chi Nhánh B",
+            value: 3520
         }, {
-            label: "Mail-Order Sales",
-            value: 20
+            label: "Chi Nhánh C",
+            value: 2120
+        }, {
+            label: "Chi Nhánh D",
+            value: 2210
+        }, {
+            label: "Chi Nhánh E",
+            value: 2210
         }],
         resize: true
     });
