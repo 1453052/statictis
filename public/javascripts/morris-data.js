@@ -1,59 +1,11 @@
+alert(data);
+
 $(function () {
 
-
+    alert(data);
     Morris.Area({
         element: 'morris-area-chart',
-        data: [{
-            period: '2010 Q1',
-            SachThieuNhi: 2666,
-            SachGiaoKhoa: null,
-            SachKhoaHoc: 2647
-        }, {
-            period: '2010 Q2',
-            SachThieuNhi: 2778,
-            SachGiaoKhoa: 2294,
-            SachKhoaHoc: 2441
-        }, {
-            period: '2010 Q3',
-            SachThieuNhi: 4912,
-            SachGiaoKhoa: 1969,
-            SachKhoaHoc: 2501
-        }, {
-            period: '2010 Q4',
-            SachThieuNhi: 3767,
-            SachGiaoKhoa: 3597,
-            SachKhoaHoc: 5689
-        }, {
-            period: '2011 Q1',
-            SachThieuNhi: 6810,
-            SachGiaoKhoa: 1914,
-            SachKhoaHoc: 2293
-        }, {
-            period: '2011 Q2',
-            SachThieuNhi: 5670,
-            SachGiaoKhoa: 4293,
-            SachKhoaHoc: 1881
-        }, {
-            period: '2011 Q3',
-            SachThieuNhi: 4820,
-            SachGiaoKhoa: 3795,
-            SachKhoaHoc: 1588
-        }, {
-            period: '2011 Q4',
-            SachThieuNhi: 15073,
-            SachGiaoKhoa: 5967,
-            SachKhoaHoc: 5175
-        }, {
-            period: '2012 Q1',
-            SachThieuNhi: 10687,
-            SachGiaoKhoa: 4460,
-            SachKhoaHoc: 2028
-        }, {
-            period: '2012 Q2',
-            SachThieuNhi: 8432,
-            SachGiaoKhoa: 5713,
-            SachKhoaHoc: 1791
-        }],
+        data: data,
         xkey: 'period',
         ykeys: ['SachThieuNhi', 'SachGiaoKhoa', 'SachKhoaHoc'],
         labels: ['Sach Thieu Nhi', 'Sach Giao Khoa', 'Sach Khoa Hoc'],
