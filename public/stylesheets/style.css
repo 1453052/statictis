@@ -1,0 +1,268 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+#container {
+    padding: 0 15px;
+    min-height: 568px;
+}
+
+@media (min-width: 768px) {
+    #container {
+        position: inherit;
+        margin: 0 0 0 250px;
+        padding: 0 30px;
+        border-left: 1px solid #e7e7e7;
+    }
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        z-index: 1;
+        position: absolute;
+        width: 250px;
+        margin-top: 51px;
+    }
+
+    .navbar-top-links .dropdown-messages,
+    .navbar-top-links .dropdown-tasks,
+    .navbar-top-links .dropdown-alerts {
+        margin-left: auto;
+    }
+}
+
+.navbar-top-links {
+    margin-right: 0;
+}
+
+.navbar-top-links li {
+    display: inline-block;
+}
+
+.navbar-top-links li:last-child {
+    margin-right: 15px;
+}
+
+.navbar-top-links li a {
+    padding: 15px;
+    min-height: 50px;
+}
+
+.navbar-top-links .dropdown-menu li {
+    display: block;
+}
+
+.navbar-top-links .dropdown-menu li:last-child {
+    margin-right: 0;
+}
+
+.navbar-top-links .dropdown-menu li a {
+    padding: 3px 20px;
+    min-height: 0;
+}
+
+.navbar-top-links .dropdown-menu li a div {
+    white-space: normal;
+}
+
+.navbar-top-links .dropdown-messages,
+.navbar-top-links .dropdown-tasks,
+.navbar-top-links .dropdown-alerts {
+    width: 310px;
+    min-width: 0;
+}
+
+.navbar-top-links .dropdown-messages {
+    margin-left: 5px;
+}
+
+.navbar-top-links .dropdown-tasks {
+    margin-left: -59px;
+}
+
+.navbar-top-links .dropdown-alerts {
+    margin-left: -123px;
+}
+
+.navbar-top-links .dropdown-user {
+    right: 0;
+    left: auto;
+}
+
+.sub-menu {
+
+}
+
+.sub-menu > li > a {
+    padding-left: 37px;
+}
+
+div.list-category h3.title {
+    display: block;
+    padding: 14px 0 15px 0;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 0px;
+    border-bottom: 1px solid;
+}
+
+.panel-blue-light {
+    background: #3a91d7;
+    color: #ffffff;
+}
+
+#editing-btn {
+    margin-top: -8px;
+}
+
+.tab-pane {
+    margin-top: 20px;
+}
+
+.list-toolbar-btn {
+    margin: 0 3px;
+}
+
+.list-toolbar-btn.btn-delete {
+    color: #c9302c;
+}
+
+.list-toolbar-btn.btn-refresh {
+    color: #398439;
+}
+
+.list-toolbar-btn.btn-add {
+    color: #337ab7;
+}
+
+.btn.btn-edit {
+    color: #337ab7;
+}
+
+.icon-blue {
+    color: #337ab7;
+}
+
+.icon-info {
+    color: #269abc;
+}
+
+.icon-delete {
+    color: #c9302c;
+}
+
+.icon-warning {
+    color: #ec971f;
+}
+
+.icon-heading {
+    color: #337ab7;
+    margin-right: 10px;
+}
+
+.bg-green {
+    background-color: #398439;
+}
+
+.bg-orange {
+    background-color: #ec971f;
+}
+
+.bg-red {
+    background-color: #c9302c;
+}
+
+.bg-blue {
+    background-color: #337ab7;
+}
+
+.balance-verticle {
+    margin-top: -7px;
+}
+
+/*------------------------BEGIN------bootstrap--------------*/
+.panel-pink {
+    border-color: #dda9ad
+}
+
+.panel-pink > .panel-heading {
+    color: #d10031;
+    background-color: #f7ceda;
+    border-color: #dda9ad
+}
+
+.panel-pink > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #dda9ad
+}
+
+.panel-pink > .panel-heading .badge {
+    color: #f5f5f5;
+    background-color: #333
+}
+
+.panel-pink > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #dda9ad
+}
+
+.panel-purple {
+    border-color: #bbaedd
+}
+
+.panel-purple > .panel-heading {
+    color: #7b3bd1;
+    background-color: #d7cef7;
+    border-color: #bbaedd
+}
+
+.panel-purple > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #bbaedd
+}
+
+.panel-purple > .panel-heading .badge {
+    color: #f5f5f5;
+    background-color: #333
+}
+
+.panel-purple > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #bbaedd
+}
+
+.panel-royal {
+    border-color: #adc6dd
+}
+
+.panel-royal > .panel-heading {
+    color: #557c00;
+    background-color: #c5f7ce;
+    border-color: #b1ddc3
+}
+
+.panel-royal > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #adc6dd
+}
+
+.panel-royal > .panel-heading .badge {
+    color: #f5f5f5;
+    background-color: #333
+}
+
+.panel-royal > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #adc6dd
+}
+
+/*------------------------END-----bootstrap--------------*/

@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    h1= title
+    .container
+        .panel.panel-default
+            .panel-heading
+                i.fa.fa-bar-chart-o.fa-fw
+                |  Area Chart
+            .panel-body
+                #morris-area-chart
+        .panel.panel-default
+            .panel-heading
+                i.fa.fa-bar-chart-o.fa-fw
+                |  Bar Chart
+            .panel-body
+                #morris-bar-chart
