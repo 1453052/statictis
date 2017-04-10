@@ -1,8 +1,4 @@
-alert(data);
-
 $(function () {
-
-    alert(data);
     Morris.Area({
         element: 'morris-area-chart',
         data: data,
